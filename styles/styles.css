@@ -1,0 +1,376 @@
+/* Box model */
+p {
+    margin: 0px;
+}
+
+.header {
+    min-height: 136px;
+}
+
+.logo-header {
+    margin-top: 20px;
+    margin-left: 256px;
+}
+
+#sell-apartment {
+    width: 249px;
+    margin-top: 54px;
+    margin-left: 235.26px;
+}
+
+#client-stories {
+    width: 200px;
+    margin-top: 54px;
+    margin-left: 35px;
+}
+
+#phone-icon-header {
+    margin-top: 52px;
+    margin-left: 60px;
+    transform: rotate(6.22deg);
+}
+
+#header-tel {
+    width: 212px;
+    margin-top: 54px;
+    margin-left: 7.95px;
+}
+
+.header .button {
+    width: 274px;
+    height: 56px;
+    margin-top: 40px;
+    margin-left: 16px;
+    padding: 12px 55px 15px;
+    color: #121761;
+}
+
+.main-intro {
+    min-height: 536px;
+    padding-top: 79px;
+}
+
+.intro-content {
+    margin-left: 260px;
+}
+
+#text-confused {
+    margin-top: 79px;
+}
+
+#text-documents {
+    width: 670px;
+    margin-top: 1px;
+    margin-left: 257px;
+}
+
+.main-intro .button {
+    width: 400px;
+    min-height: 72px;
+    margin-top: 31px;
+    margin-right: 115px;
+    padding: 10px 97px 15px 97px;
+}
+
+figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+.illustration {
+    margin-top: 133px;
+    margin-right: 61px;
+    margin-bottom: 119px;
+}
+
+#illustration1 {
+    margin-left: 330px;
+}
+
+#illustration3 {
+    margin-top: 132px;
+}
+
+.main-content {
+    padding-top: 95px;
+    padding-bottom: 119px;
+}
+
+#text-take-quiz {
+    width: 889px;
+    margin-left: 516px;
+}
+
+.quiz {
+    width: 1040px;
+    margin-top: 69px;
+    margin-left: 440px;
+    padding-top: 67px;
+    padding-bottom: 60px;
+}
+
+#text-quiz-time {
+    width: 322px;
+    margin-left: 358px;
+}
+
+#text-sell-buy {
+    width: 480px;
+    margin-top: 74px;
+    margin-left: 358px;
+}
+
+.quiz .button {
+    width: 460px;
+    height: 72px;
+    margin-top: 30px;
+    margin-left: 360px;
+}
+
+#text-quiz-result {
+    width: 354px;
+    margin-top: 63px;
+    margin-left: 360px;
+}
+
+.arrow {
+    transform: rotate(-7.6deg);
+}
+
+footer {
+    margin-top: 171px;
+}
+
+#logo-footer {
+    margin-top: 61.68px;
+    margin-left: 260px;
+}
+
+#location-icon {
+    margin-top: 82px;
+    margin-left: 437px;
+}
+
+.address {
+    width: 270px;
+    margin-top: 84px;
+    margin-left: 15.05px;
+}
+
+#tel-footer {
+    width: 166.66px;
+    margin-top: 16px;
+    margin-left: 435px;
+
+}
+
+#phone-icon-footer {
+    margin-right: 12px;
+}
+
+.schedule {
+    width: 195.58px;
+    margin-top: 83px;
+    margin-left: 239px;
+}
+
+#clock-icon {
+    margin-right: 11px;
+}
+
+#schedule-value1 {
+    width: 225.41px;
+    margin-top: 4px;
+    margin-left: 412.76px;
+}
+
+#schedule-value2 {
+    width: 212px;
+    margin-left: 412.34px;
+}
+
+footer {
+    padding-bottom: 70px;
+}
+
+/* Typography */
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#text-documents,
+.main-intro .button,
+.quiz .button {
+    font-weight: 700;
+}
+
+.header {
+    font-size: 1.25em;
+    line-height: 24px;
+}
+
+.main-intro .button,
+#text-take-quiz,
+.quiz .button {
+    text-align: center;
+}
+
+#text-documents,
+#text-take-quiz {
+    font-size: 2.8125em;
+}
+
+#text-documents {
+    line-height: 53px;
+}
+
+#text-take-quiz {
+    line-height: 60px;
+}
+
+#text-confused,
+#text-quiz-time,
+#text-quiz-result,
+.schedule {
+    font-size: 1em;
+    line-height: 26px;
+}
+
+.main-intro .button,
+.quiz .button {
+    font-size: 1.4375em;
+    line-height: 28px;
+}
+
+#text-sell-buy {
+    font-size: 2.1875em;
+    line-height: 45px;
+}
+
+footer {
+    font-size: 0.875em;
+    line-height: 21px;
+}
+
+.menu a,
+.main-intro .button,
+.quiz {
+    color: #475658;
+}
+
+.main-intro,
+.quiz .button,
+footer,
+footer a {
+    color: #FFFFFF;
+}
+
+#text-take-quiz,
+#text-sell-buy {
+    color: #03073C;
+}
+
+.quiz .highlight {
+    color: #D44B4B;
+}
+
+/* Decoration */
+a {
+    text-decoration: none;
+}
+
+.main-intro,
+.quiz .button {
+    background-color: #D44B4B;
+}
+
+footer {
+    background-color: #475658;
+}
+
+.header .button,
+.main-intro .button {
+    background-color: #FFFFFF;
+}
+
+.main-intro .border-highlight {
+    border: 1px solid #FFFFFF;
+}
+
+.main-content .border-highlight {
+    border: 1px solid #D44B4B;
+}
+
+.border-highlight {
+    border-radius: 20px;
+}
+
+.quiz {
+    border: 1px solid #F2F2F2;
+    box-shadow: 1px 3px 20px rgba(240, 240, 240, 0.8);
+    border-radius: 20px;
+}
+
+.header .button {
+    border: 1px solid #121761;
+}
+
+.main-intro .button {
+    border: 1px solid #FFFFFF;
+    box-shadow: 2px 2px 4px #A1303C;
+}
+
+.quiz .button {
+    border: 1px solid #D44B4B;
+    box-shadow: 2px 2px 5px #F0F0F0;
+}
+
+.button {
+    border-radius: 10px;
+}
+
+/* Other */
+.header .button:hover,
+.main-intro .button:hover {
+    background-color: #F0F0F0;
+}
+
+.quiz .button:hover {
+    background-color: #A1303C;
+}
+
+.menu a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+.menu a :focus {
+    color: #A1303C;
+}
+
+.menu a:active,
+footer a:active {
+    color: #20289d;
+}
+
+.link:visited {
+    color: #A1303C;
+}
+
+@keyframes move {
+
+    from,
+    to {
+        margin-left: 16;
+    }
+
+    50% {
+        margin-left: 200px;
+    }
+}
+
+.header .button {
+    animation: move 3s 2s;
+}
