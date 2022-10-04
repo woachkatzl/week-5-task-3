@@ -1,17 +1,27 @@
 /* Box model */
-/* p {
-    margin: 0px;
-} */
 
-.header {
+.header,
+.menu,
+.main-intro,
+.main-illustration,
+.main-content,
+footer,
+.address,
+.tel,
+.schedule-title {
     display: flex;
-    align-items: center;
-    min-height: 136px;
 }
 
-.menu {
-    display: flex;
+.header,
+.menu,
+.main-illustration,
+.main-content,
+footer {
     align-items: center;
+}
+
+.header {
+    min-height: 136px;
 }
 
 .header-el {
@@ -23,7 +33,7 @@
     margin-right: 12%;
 }
 
-#sell-apartment {
+#sell-apt-link {
     width: 13vw;
 }
 
@@ -52,7 +62,6 @@
 .main-intro {
     min-height: 536px;
     position: relative;
-    display: flex;
     flex-direction: column;
 }
 
@@ -83,11 +92,8 @@
 }
 
 .main-illustration {
-    display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 644px;
-    margin: 0px;
 }
 
 .illustration {
@@ -95,9 +101,7 @@
 }
 
 .main-content {
-    display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .quiz {
@@ -139,59 +143,30 @@
 }
 
 footer {
+    justify-content: space-around;
+    min-height: 223px;
     margin-top: 171px;
 }
 
-#logo-footer {
-    margin-top: 61.68px;
-    margin-left: 260px;
+footer p,
+.main-illustration {
+    margin: 0px;
+}
+
+.tel {
+    margin-top: 16px;
 }
 
 #location-icon {
-    margin-top: 82px;
-    margin-left: 437px;
-}
-
-.address {
-    width: 270px;
-    margin-top: 84px;
-    margin-left: 15.05px;
-}
-
-#tel-footer {
-    width: 166.66px;
-    margin-top: 16px;
-    margin-left: 435px;
-
+    margin-right: 1vw;
 }
 
 #phone-icon-footer {
-    margin-right: 12px;
-}
-
-.schedule {
-    width: 195.58px;
-    margin-top: 83px;
-    margin-left: 239px;
+    margin-right: 0.63vw;
 }
 
 #clock-icon {
     margin-right: 11px;
-}
-
-#schedule-value1 {
-    width: 225.41px;
-    margin-top: 4px;
-    margin-left: 412.76px;
-}
-
-#schedule-value2 {
-    width: 212px;
-    margin-left: 412.34px;
-}
-
-footer {
-    padding-bottom: 70px;
 }
 
 /* Typography */
@@ -354,8 +329,4 @@ footer a:active {
 
 .link:visited {
     color: #A1303C;
-}
-
-.header .button {
-    animation: move 3s 2s;
 }
