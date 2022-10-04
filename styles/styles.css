@@ -82,68 +82,59 @@
     right: 7%;
 }
 
-figure {
+.main-illustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 644px;
     margin: 0px;
-    padding: 0px;
 }
 
 .illustration {
-    margin-top: 133px;
-    margin-right: 61px;
-    margin-bottom: 119px;
-}
-
-#illustration1 {
-    margin-left: 330px;
-}
-
-#illustration3 {
-    margin-top: 132px;
+    margin-right: 3%;
 }
 
 .main-content {
-    padding-top: 95px;
-    padding-bottom: 119px;
-}
-
-#text-take-quiz {
-    width: 889px;
-    margin-left: 516px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quiz {
-    width: 1040px;
-    margin-top: 69px;
-    margin-left: 440px;
-    padding-top: 67px;
-    padding-bottom: 60px;
+    position: relative;
+    width: 64%;
+    min-height: 710px;
+    margin-bottom: 119px;
 }
 
-#text-quiz-time {
-    width: 322px;
-    margin-left: 358px;
+.quiz .text,
+.quiz .button {
+    margin-left: 34.6%;
 }
 
-#text-sell-buy {
-    width: 480px;
+.quiz-text-1 {
+    margin-top: 67px;
+}
+
+.quiz-text-2 {
     margin-top: 74px;
-    margin-left: 358px;
 }
 
 .quiz .button {
-    width: 460px;
+    width: 44.23%;
     height: 72px;
     margin-top: 30px;
-    margin-left: 360px;
 }
 
-#text-quiz-result {
-    width: 354px;
+.quiz-text-3 {
+    width: 34%;
     margin-top: 63px;
-    margin-left: 360px;
 }
 
 .arrow {
+    position: absolute;
+    top: 400px;
+    right: 13%;
     transform: rotate(-7.6deg);
 }
 
@@ -222,23 +213,23 @@ body {
 }
 
 .main-intro .button,
-#text-take-quiz,
+.content-text,
 .quiz .button {
     text-align: center;
 }
 
 .intro-text-2,
-#text-take-quiz {
+.content-text {
     font-size: 2.8125em;
 }
 
-#text-take-quiz {
+.content-text {
     line-height: 60px;
 }
 
 .intro-text-1,
-#text-quiz-time,
-#text-quiz-result,
+.quiz-text-1,
+.quiz-text-3,
 .schedule {
     font-size: 1em;
     line-height: 26px;
@@ -250,7 +241,7 @@ body {
     line-height: 28px;
 }
 
-#text-sell-buy {
+.quiz-text-2 {
     font-size: 2.1875em;
     line-height: 45px;
 }
@@ -273,8 +264,8 @@ footer a {
     color: #FFFFFF;
 }
 
-#text-take-quiz,
-#text-sell-buy {
+.content-text,
+.quiz-text-2 {
     color: #03073C;
 }
 
