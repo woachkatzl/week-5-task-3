@@ -51,29 +51,35 @@
 
 .main-intro {
     min-height: 536px;
-    padding-top: 79px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
-.intro-content {
-    margin-left: 260px;
+.main-intro p,
+.main-intro button {
+    margin-left: 13%;
 }
 
-#text-confused {
+.intro-text-1 {
     margin-top: 79px;
 }
 
-#text-documents {
-    width: 670px;
+.intro-text-2 {
     margin-top: 1px;
-    margin-left: 257px;
+    line-height: 53px;
 }
 
 .main-intro .button {
-    width: 400px;
+    width: 24%;
     min-height: 72px;
     margin-top: 31px;
-    margin-right: 115px;
-    padding: 10px 97px 15px 97px;
+}
+
+.intro-image {
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
 }
 
 figure {
@@ -204,7 +210,7 @@ body {
     font-weight: 400;
 }
 
-#text-documents,
+.intro-text-2,
 .main-intro .button,
 .quiz .button {
     font-weight: 700;
@@ -221,20 +227,16 @@ body {
     text-align: center;
 }
 
-#text-documents,
+.intro-text-2,
 #text-take-quiz {
     font-size: 2.8125em;
-}
-
-#text-documents {
-    line-height: 53px;
 }
 
 #text-take-quiz {
     line-height: 60px;
 }
 
-#text-confused,
+.intro-text-1,
 #text-quiz-time,
 #text-quiz-result,
 .schedule {
