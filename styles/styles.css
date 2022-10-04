@@ -24,10 +24,6 @@ footer {
     min-height: 136px;
 }
 
-.header-el {
-    display: inline-block;
-}
-
 .logo-header {
     margin-left: 13%;
     margin-right: 12%;
@@ -50,6 +46,7 @@ footer {
 #header-tel {
     width: 11vw;
     margin-left: 0.41vw;
+    align-self: flex-start;
 }
 
 .header .button {
